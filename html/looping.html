@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Looping</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+</head>
+
+<body>
+
+    <div id="looping">
+        <h1>Looping, through liste</h1>
+        <ul>
+            <!--
+                characters = nom du tableau
+                character = nom de la variable qui contient les éléments du tableau
+            -->
+            <li v-for="character in characters">{{character}}</li>
+        </ul>
+
+        <ul>
+            <li v-for="(ninja, index) in ninjas">{{index}} - {{ninja.name}} - {{ninja.age}}</li>
+        </ul>
+
+        <template v-for="(ninja, index) in ninjas">
+            <h3>{{index}} . {{ninja.name}}</h3>
+            <p>{{ninja.age}}</p>
+        </template>
+
+    </div>
+
+    <a class="link-info" href="../index.html">Main Page</a>
+    <script src="../scripts/looping.js"></script>
+</body>
+
+</html>
