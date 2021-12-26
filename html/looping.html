@@ -30,6 +30,12 @@
             <p>{{ninja.age}}</p>
         </template>
 
+        <template v-for="ninja in ninjas">
+            <div v-for="(val, key) in ninja">
+                <p>{{key}} - {{val}}</p>
+            </div>
+        </template>
+
     </div>
 
     <a class="link-info" href="../index.html">Main Page</a>
