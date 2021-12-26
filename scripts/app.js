@@ -2,7 +2,7 @@ new Vue({
     el: '#vue-app',
     data: {
         name: 'BabaProg',
-        job: 'Streamer',
+        job: 'Dev',
     },
     methods: {
         greet: function(time) {
