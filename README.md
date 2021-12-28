@@ -1,7 +1,3 @@
-# Puchbag Game :
-
-<a href="https://github.com/BaptisteHardelin/VueJsTutoriel/tree/main/BeforeCli/punchbagGame/index.html">PunchBag Game</a>
-
 # Etapes pour créer un projet vue avec NodeJS :
 
 * Etape 1 :
