@@ -27,6 +27,6 @@ template-name :
 
 # Pour voir le résultat :
 
-Se déplace dans le dossier <project-name> généré puis faire :
+Se déplacer dans le dossier <project-name> généré puis faire :
 
     npm run dev
