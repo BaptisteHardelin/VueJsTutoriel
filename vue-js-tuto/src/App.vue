@@ -1,25 +1,26 @@
 <template>
   <div>
-    <h1>{{title}}</h1>
+    <h1>{{ title }}</h1>
     <ninjas></ninjas>
   </div>
 </template>
 
 <script>
-import Ninjas from './Ninjas.vue';
+import Ninjas from "./Ninjas.vue";
 
 export default {
   components: { Ninjas },
-  data () {
+  data() {
     return {
-      title: 'Ninja App'
+      title: "Ninja App",
     };
-  }
+  },
 };
-
-
 </script>
 
-<style>
-
+<style scoped>
+h1 {
+  color: purple;
+}
 </style>
+
