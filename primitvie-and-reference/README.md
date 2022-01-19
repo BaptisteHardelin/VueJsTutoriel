@@ -1,4 +1,4 @@
-# primitvie-and-reference
+# nesting-components
 
 > A Vue.js project
 
