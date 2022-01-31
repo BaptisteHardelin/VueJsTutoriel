@@ -15,24 +15,10 @@
 </template>
 
 <script>
-export default {
-  props: {
-    ninjas: {
-      type: Array,
-      required: true,
-    },
-  },
-  data() {
-    return {
-      
-    }
-  },
-  methods: {
-    deleteNinja: function() {
-      this.ninjas.pop();
-    }
-  },
-};
+
+import NinjaJS from "./ninja"
+
+export default NinjaJS
 </script>
 
 <style scoped>
