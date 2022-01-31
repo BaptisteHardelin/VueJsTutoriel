@@ -1,4 +1,4 @@
-# nesting-components
+# events-vue
 
 > A Vue.js project
 
