@@ -4,7 +4,9 @@
 
 Installer vue-cli :
 
-    npm install @vue/cli (-g pour l'installer sur le pc et non que sur le projet)
+    npm install @vue/cli 
+    
+    (-g pour l'installer sur le pc et non que sur le projet)
 
 * Etape 2 :
 
