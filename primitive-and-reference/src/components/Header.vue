@@ -5,21 +5,9 @@
 </template>
 
 <script>
-export default {
-  props: {
-    title: String
-  },
-  data() {
-    return {
-      title: "Vue Ninjas",
-    };
-  },
-  methods: {
-    changeTitle: function() {
-      this.title = "Vue Wizards"
-    }
-  },
-};
+import headerJS from "./header";
+
+export default headerJS;
 </script>
 
 <style scoped>

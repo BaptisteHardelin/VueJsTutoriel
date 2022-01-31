@@ -5,19 +5,11 @@
 </template>
 
 <script>
-export default {
-  props: {
-    title: {
-      type: String
-    },
-  },
-  data() {
-    return {
-      copyright: "Copyright 20212",
-    };
-  },
-};
+import footerJS from "./footer";
+
+export default footerJS;
 </script>
+
 
 <style scoped>
 footer {
