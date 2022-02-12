@@ -5,9 +5,25 @@
 </template>
 
 <script>
-import headerJS from "./header";
+import { bus } from "../main";
 
-export default headerJS;
+export default {
+  props: {
+    title: String
+  },
+  data() {
+    return {
+      title: "Vue Ninjas",
+    };
+  },
+  methods: {
+    changeTitle: function () {
+      // this.$emit('changeTitle', 'Vue Wizards');
+      this.title = 'Vue Wizards';
+      bus.$emit('titleChanged', 'Vue Wizards')
+    }
+  },
+};
 </script>
 
 <style scoped>
@@ -20,5 +36,4 @@ h1 {
   color: #222;
   text-align: center;
 }
-
 </style>

@@ -5,9 +5,25 @@
 </template>
 
 <script>
-import footerJS from "./footer";
+import { bus } from "../main";
 
-export default footerJS;
+export default {
+    props: {
+      title: {
+        type: String
+      },
+    },
+    data() {
+      return {
+        copyright: "Copyright 20212",
+      };
+    },
+    created() {
+      bus.$emit('titleChanged', (data) => {
+        this.title = data;
+      })
+    },
+  };
 </script>
 
 
