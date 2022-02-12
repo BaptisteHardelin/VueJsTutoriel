@@ -1,15 +1,15 @@
 export default {
-    props: {
-  title: String
+  props: {
+    title: String
   },
   data() {
     return {
-      // title: "Vue Ninjas",
+      title: "Vue Ninjas",
     };
   },
   methods: {
-    changeTitle: function() {
-      this.title = "Vue Wizards"
+    changeTitle: function () {
+      this.$emit('changeTitle', 'Vue Wizards');
     }
   },
 };
